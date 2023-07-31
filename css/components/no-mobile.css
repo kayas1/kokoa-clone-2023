@@ -1,4 +1,4 @@
-.no-mobile > div{
+.no-mobile-narrow,.no-mobile-wide{
     position:absolute;
     z-index: 99;
     height:100vh;
@@ -11,17 +11,17 @@
     font-size: 32px;
     top:0;
 }
-.no-mobile > div > div{
-    margin: 10px 0px;
+.no-mobile-div:first-child{
+    margin-bottom:10px;
 }
 @media screen and (min-width:400px){
-    .no-mobile > div:last-child{
+    .no-mobile-narrow{
         display: none;
     }
 }
 
 @media screen and (max-width:650px) {
-    .no-mobile > div:first-child{
+    .no-mobile-wide{
         display:none;
     }
 }

@@ -121,7 +121,7 @@
     }
 }
 
-.open-post__photo i{
+.open-post__photo:hover i{
     will-change: transform;
     animation:heartBeat 1s ease-in-out infinite;
 }

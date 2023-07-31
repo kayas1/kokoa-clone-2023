@@ -1,0 +1,29 @@
+
+.icon-row{
+    height:100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-row__find{
+    padding-bottom: 120px;
+}
+.icon-row__icon-find{
+    margin-top: 130px;
+}
+.icon-row__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-row__icon i{
+    color:rgba(0,0,0,0.7);
+}
+
+.icon-row__icon i{
+    font-size: 35px;
+}
+
+.icon-row__icon span{
+    margin-top: 15px;
+}
